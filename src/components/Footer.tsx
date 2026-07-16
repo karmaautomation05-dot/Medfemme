@@ -102,6 +102,7 @@ export default function Footer() {
             <Link href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</Link>
             <Link href="/sitemap" className="hover:text-slate-300 transition-colors">Sitemap</Link>
+            <a href="https://karmait.in/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-300 transition-colors">Managed by Karma automation</a>
           </div>
         </div>
       </div>
