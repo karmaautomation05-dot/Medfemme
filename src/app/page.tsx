@@ -29,6 +29,7 @@ const schema = {
       'description': 'Dr. Priyanka Bhargava is a leading Obstetrician and Gynecologist in Kanpur with over 20+ years of experience.',
       'url': 'https://medfemme.in',
       'telephone': '+91 7309038872',
+      'priceRange': '₹ 400 - ₹ 1000',
       'address': {
         '@type': 'PostalAddress',
         'streetAddress': '7/198 - A, Anand Bazar, Khalasi Line, Swaroop Nagar',
@@ -47,7 +48,18 @@ const schema = {
       '@type': 'MedicalClinic',
       'name': 'Medfemme',
       'url': 'https://medfemme.in',
+      'image': 'https://medfemme.in/images/Medfemme_logo_main.webp',
       'logo': 'https://medfemme.in/images/Medfemme_logo_main.webp',
+      'telephone': '+91 7309038872',
+      'priceRange': '₹ 400 - ₹ 1000',
+      'address': {
+        '@type': 'PostalAddress',
+        'streetAddress': '7/198 - A, Anand Bazar, Khalasi Line, Swaroop Nagar',
+        'addressLocality': 'Kanpur',
+        'addressRegion': 'Uttar Pradesh',
+        'postalCode': '208002',
+        'addressCountry': 'IN'
+      },
       'openingHoursSpecification': {
         '@type': 'OpeningHoursSpecification',
         'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],

@@ -46,7 +46,7 @@ export default function Testimonials() {
                 <Quote size={24} fill="currentColor" />
               </div>
               
-              <div className="flex gap-1 text-yellow-400 mb-6" aria-label={`${t.rating} out of 5 stars`}>
+              <div role="img" className="flex gap-1 text-yellow-400 mb-6" aria-label={`${t.rating} out of 5 stars`}>
                 {[...Array(t.rating)].map((_, i) => (
                   <Star key={i} size={18} fill="currentColor" aria-hidden="true" />
                 ))}

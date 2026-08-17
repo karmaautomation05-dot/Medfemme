@@ -44,6 +44,9 @@ const MapPin = ({ className }: { className?: string }) => (
   </svg>
 )
 
+const formatDate = (date: string) =>
+  new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+
 interface Props {
   params: { slug: string }
 }
@@ -74,7 +77,8 @@ export default function BlogPostPage({ params }: Props) {
         "url": "https://medfemme.in/images/Medfemme_logo_main.webp"
       }
     },
-    "datePublished": "2024-05-15",
+    "datePublished": post.datePublished || "2024-05-15",
+    "dateModified": post.dateModified || post.datePublished || "2024-05-15",
     "description": post.metaDescription
   }
 
@@ -125,6 +129,14 @@ export default function BlogPostPage({ params }: Props) {
                   </div>
                   <div className="w-px h-4 bg-white/20"></div>
                   <span>Expert Obstetrics & Gynecology Care</span>
+                  {post.datePublished && (
+                    <>
+                      <div className="w-px h-4 bg-white/20"></div>
+                      <span>Published {formatDate(post.datePublished)}</span>
+                      <div className="w-px h-4 bg-white/20"></div>
+                      <span>Updated {formatDate(post.dateModified || post.datePublished)}</span>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -184,26 +196,24 @@ export default function BlogPostPage({ params }: Props) {
                   ))}
                 </div>
               </div>
-              
-              <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                  __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "FAQPage",
-                    "mainEntity": post.faqs.map((faq) => ({
-                      "@type": "Question",
-                      "name": faq.question,
-                      "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": faq.answer
-                      }
-                    }))
-                  })
-                }}
-              />
+                <script
+                  type="application/ld+json"
+                  dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                      "@context": "https://schema.org",
+                      "@type": "FAQPage",
+                      "mainEntity": post.faqs.map((faq) => ({
+                        "@type": "Question",
+                        "name": faq.question,
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": faq.answer
+                        }
+                      }))
+                    })
+                  }}
+                />
             </div>
-
             <aside className="lg:col-span-4 space-y-10">
               <div className="sticky top-28 space-y-10">
                 <div className="bg-white rounded-[2rem] p-8 border border-slate-100 shadow-xl shadow-slate-100/50 text-center group">

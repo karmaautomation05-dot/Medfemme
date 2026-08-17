@@ -15,6 +15,8 @@ export interface BlogPost {
   keyTakeaways?: string[];
   warningBox?: { title: string; text: string };
   readingTime?: string;
+  datePublished?: string;
+  dateModified?: string;
   relatedSlugs?: string[];
 }
 
@@ -22,6 +24,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "PMOS(PCOS) Symptoms, Causes and Treatment: A Complete Guide for Women",
     slug: "pcos-symptoms-causes-treatment-guide",
+    datePublished: "2026-05-15",
     metaTitle: "PMOS(PCOS) Symptoms, Causes & Treatment Guide | Medfemme Kanpur",
     metaDescription: "Learn about PMOS(PCOS) symptoms, types (Insulin Resistant, Adrenal), and management with Dr. Priyanka Bhargava at Medfemme Kanpur. Expert PMOS(PCOS) care in Uttar Pradesh.",
     image: "/images/dr-priyanka-bhargava-pcos-specialist-kanpur.webp",
@@ -109,6 +112,7 @@ Depending on your symptoms and fertility goals, Dr. Priyanka Bhargava may recomm
   {
     title: "Early Pregnancy Symptoms Every Woman Should Know",
     slug: "early-pregnancy-symptoms-guide",
+    datePublished: "2026-05-17",
     metaTitle: "8 Early Signs of Pregnancy | Medfemme Women's Clinic Kanpur",
     metaDescription: "Missed your period? Discover common early pregnancy symptoms like fatigue, nausea, and mood swings. Expert prenatal care by Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-early-pregnancy-symptoms-kanpur.webp",
@@ -174,6 +178,7 @@ Early prenatal visits with your gynecologist help:
   {
     title: "Endometriosis: Symptoms, Diagnosis and Treatment Options",
     slug: "endometriosis-symptoms-diagnosis-treatment",
+    datePublished: "2026-05-18",
     metaTitle: "Endometriosis Treatment in Kanpur | Dr. Priyanka Bhargava",
     metaDescription: "Dealing with painful periods? It could be endometriosis. Learn about symptoms, laparoscopy diagnosis, and treatment options at Medfemme Clinic Kanpur.",
     image: "/images/dr-priyanka-bhargava-endometriosis-treatment-kanpur.webp",
@@ -238,6 +243,7 @@ Early diagnosis and expert management are the keys to living a pain-free life.`,
   {
     title: "High-Risk Pregnancy – Causes, Risks, and How to Ensure a Healthy Pregnancy",
     slug: "high-risk-pregnancy-causes-care-guide",
+    datePublished: "2026-05-21",
     metaTitle: "High-Risk Pregnancy Care in Kanpur | Dr. Priyanka Bhargava",
     metaDescription: "Worried about a high-risk pregnancy? Learn about causes, risks, and monitoring at Medfemme Kanpur. Expert care for diabetes, thyroid, and age-related risks.",
     image: "/images/dr-priyanka-bhargava-high-risk-pregnancy-kanpur.webp",
@@ -287,6 +293,7 @@ Contact your doctor immediately if you experience:
   {
     title: "Irregular Periods – Causes, Symptoms, and Treatment Options",
     slug: "irregular-periods-causes-treatment-kanpur",
+    datePublished: "2026-05-22",
     metaTitle: "Irregular Periods Treatment Kanpur | Medfemme Women's Clinic",
     metaDescription: "Frequent delays or heavy bleeding? Discover the causes of irregular periods and how to treat them with Dr. Priyanka Bhargava at Medfemme Kanpur.",
     image: "/images/dr-priyanka-bhargava-irregular-periods-treatment-kanpur.webp",
@@ -334,6 +341,7 @@ Women may notice:
   {
     title: "Fertility After 35 – What Every Woman Should Know",
     slug: "fertility-after-35-tips-guidelines",
+    datePublished: "2026-05-23",
     metaTitle: "Fertility After 35: Guide for Women | Medfemme Kanpur",
     metaDescription: "Planning a pregnancy after 35? Understand fertility changes and how to improve your chances with expert advice from Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-fertility-after-35-kanpur.webp",
@@ -376,6 +384,7 @@ Women who have been trying to conceive for six months or longer without success 
   {
     title: "Common Signs of Labour Every Expecting Mother Should Know",
     slug: "signs-of-labour-guide-expecting-mothers",
+    datePublished: "2026-05-24",
     metaTitle: "5 Common Signs of Labour | Dr. Priyanka Bhargava Kanpur",
     metaDescription: "Is it true labour? Learn about contractions, water breaking, and pelvic pressure. Be prepared for delivery with Medfemme Women's Clinic Kanpur.",
     image: "/images/dr-priyanka-bhargava-signs-of-labour-kanpur.webp",
@@ -418,6 +427,7 @@ The rupture of membranes may occur as a sudden gush or a slow trickle of fluid.
   {
     title: "Pregnancy Nutrition Guide – What to Eat for a Healthy Pregnancy",
     slug: "pregnancy-nutrition-diet-guide-kanpur",
+    datePublished: "2026-05-29",
     metaTitle: "Pregnancy Diet Guide: Best Foods for Baby | Medfemme Kanpur",
     metaDescription: "Fuel your pregnancy with the right nutrients. Learn what to eat for a healthy baby and mother from Dr. Priyanka Bhargava at Medfemme Kanpur.",
     image: "/images/dr-priyanka-bhargava-pregnancy-nutrition-diet-kanpur.webp",
@@ -460,6 +470,7 @@ Limit highly processed foods, excessive sugar intake, and foods that may increas
   {
     title: "Can Women with PMOS(PCOS) Get Pregnant? Understanding Fertility and PMOS(PCOS)",
     slug: "can-i-get-pregnant-with-pcos-fertility-guide",
+    datePublished: "2026-05-30",
     metaTitle: "PMOS(PCOS) and Pregnancy: How to Conceive | Medfemme Kanpur",
     metaDescription: "Diagnosis of PMOS(PCOS) doesn't mean you can't be a mother. Learn how to improve fertility with PMOS(PCOS) at Medfemme Clinic Kanpur. Expert advice for aspiring mothers.",
     image: "/images/dr-priyanka-bhargava-pcos-fertility-success-kanpur.webp",
@@ -493,6 +504,7 @@ Many women successfully become pregnant through lifestyle changes and medical tr
   {
     title: "Endometriosis – Understanding the Hidden Cause of Pelvic Pain and Infertility",
     slug: "endometriosis-pelvic-pain-infertility-guide",
+    datePublished: "2026-05-31",
     metaTitle: "Endometriosis & Infertility Guide | Medfemme Kanpur",
     metaDescription: "Is endometriosis causing your pelvic pain or infertility? Learn about the hidden symptoms and treatment options from Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-endometriosis-infertility-kanpur.webp",
@@ -532,6 +544,7 @@ Early diagnosis and treatment can significantly improve quality of life and fert
   {
     title: "Thyroid Disorders and Female Fertility – What Every Woman Should Know",
     slug: "thyroid-disorders-female-fertility-guide",
+    datePublished: "2026-06-02",
     metaTitle: "Thyroid and Fertility Guide | Medfemme Women's Clinic Kanpur",
     metaDescription: "Can thyroid issues cause infertility? Learn how hypothyroidism and hyperthyroidism affect your cycle and pregnancy with Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-thyroid-fertility-kanpur.webp",
@@ -573,6 +586,7 @@ Fortunately, thyroid conditions can often be effectively managed through medicat
   {
     title: "Menopause and Perimenopause – A Complete Women's Health Guide",
     slug: "menopause-perimenopause-complete-health-guide",
+    datePublished: "2026-06-12",
     metaTitle: "Menopause & Perimenopause Guide | Medfemme Kanpur",
     metaDescription: "Navigating menopause? Learn about symptoms like hot flashes and night sweats, and how to manage this transition with Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-menopause-specialist-kanpur.webp",
@@ -612,6 +626,7 @@ Various treatment options are available to improve quality of life during this t
   {
     title: "Uterine Fibroids – Symptoms, Causes, and Treatment Options",
     slug: "uterine-fibroids-symptoms-causes-treatment",
+    datePublished: "2026-06-19",
     metaTitle: "Uterine Fibroids Treatment Kanpur | Dr. Priyanka Bhargava",
     metaDescription: "Heavy bleeding or pelvic pain? It could be uterine fibroids. Discover symptoms and modern treatment options at Medfemme Women's Clinic Kanpur.",
     image: "/images/dr-priyanka-bhargava-uterine-fibroids-treatment-kanpur.webp",
@@ -656,6 +671,7 @@ Management depends on symptoms, fibroid size, and future pregnancy plans:
   {
     title: "When Should You Call Your Doctor During Pregnancy?",
     slug: "pregnancy-warning-signs-when-to-call-doctor",
+    datePublished: "2026-06-22",
     metaTitle: "Pregnancy Warning Signs: When to Call Your Doctor | Medfemme Kanpur",
     metaDescription: "Safety first. Learn the critical pregnancy symptoms you should never ignore. Expert prenatal advice from Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-pregnancy-warning-signs-kanpur.webp",
@@ -694,6 +710,7 @@ Regular antenatal check-ups help identify potential complications early and ensu
   {
     title: "Morning Sickness During Pregnancy – Myths, Facts and Management Tips",
     slug: "morning-sickness-management-tips-myths-facts",
+    datePublished: "2026-06-25",
     metaTitle: "Morning Sickness Relief & Tips | Medfemme Women's Clinic Kanpur",
     metaDescription: "Nauseous? Learn how to manage morning sickness effectively. Expert tips on diet, ginger, and lifestyle from Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-morning-sickness-relief-kanpur.webp",
@@ -731,6 +748,7 @@ While usually harmless, severe vomiting (Hyperemesis Gravidarum) requires medica
   {
     title: "Natural Ways to Improve Fertility in Women",
     slug: "natural-ways-to-improve-fertility-women",
+    datePublished: "2026-06-28",
     metaTitle: "How to Boost Fertility Naturally | Medfemme Women's Clinic Kanpur",
     metaDescription: "Want to conceive? Discover natural ways to improve fertility through diet, stress management, and lifestyle with Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-natural-fertility-boost-kanpur.webp",
@@ -776,6 +794,7 @@ Understanding your ovulation patterns and tracking your fertile window increases
   {
     title: "Common Gynecological Problems and How to Prevent Them",
     slug: "common-gynecological-problems-prevention-guide",
+    datePublished: "2026-07-02",
     metaTitle: "Common Women's Health Issues & Prevention | Medfemme Kanpur",
     metaDescription: "From PMOS(PCOS) to infections, learn about common gynecological problems and how to stay healthy. Expert advice from Dr. Priyanka Bhargava in Kanpur.",
     image: "/images/dr-priyanka-bhargava-common-gynae-problems-prevention-kanpur.webp",
@@ -816,6 +835,7 @@ Early diagnosis often leads to more effective treatment and better long-term out
   {
     title: "Exercise During Pregnancy – Is It Safe for Mother and Baby?",
     slug: "safe-exercise-during-pregnancy-tips-kanpur",
+    datePublished: "2026-07-04",
     metaTitle: "Safe Exercise During Pregnancy Guide | Dr. Priyanka Bhargava",
     metaDescription: "Wondering if it's safe to exercise while pregnant? Discover the benefits of walking, yoga, and swimming from Dr. Priyanka Bhargava at Medfemme Kanpur.",
     image: "/images/dr-priyanka-bhargava-exercise-during-pregnancy-kanpur.webp",
@@ -857,6 +877,7 @@ Always consult your doctor before starting or continuing an exercise program, es
   {
     title: "Vitamin C During Pregnancy – Benefits for Mother and Baby",
     slug: "vitamin-c-benefits-pregnancy-mother-baby",
+    datePublished: "2026-07-07",
     metaTitle: "Benefits of Vitamin C in Pregnancy | Dr. Priyanka Bhargava",
     metaDescription: "Boost your immunity and iron absorption. Learn why Vitamin C is essential during pregnancy from Dr. Priyanka Bhargava at Medfemme Women's Clinic Kanpur.",
     image: "/images/dr-priyanka-bhargava-vitamin-c-pregnancy-benefits-kanpur.webp",
@@ -897,6 +918,7 @@ A balanced diet usually provides enough Vitamin C, but your doctor may recommend
   {
     title: "Understanding Ectopic Pregnancy – Symptoms, Risks and Treatment",
     slug: "ectopic-pregnancy-symptoms-risks-treatment-kanpur",
+    datePublished: "2026-07-12",
     metaTitle: "Ectopic Pregnancy Guide | Dr. Priyanka Bhargava Kanpur",
     metaDescription: "Know the warning signs of ectopic pregnancy. Learn about risks, symptoms, and urgent treatment options from Dr. Priyanka Bhargava at Medfemme Kanpur.",
     image: "/images/dr-priyanka-bhargava-ectopic-pregnancy-treatment-kanpur.webp",
@@ -941,6 +963,7 @@ If you experience severe pain or abnormal bleeding during early pregnancy, seek 
   {
     title: "Pregnancy Mood Swings – Why They Happen and How to Manage Them",
     slug: "managing-pregnancy-mood-swings-tips",
+    datePublished: "2026-07-13",
     metaTitle: "Pregnancy Mood Swings: Causes & Tips | Dr. Priyanka Bhargava",
     metaDescription: "Feeling emotional during pregnancy? Learn why mood swings happen and how to manage them with expert advice from Dr. Priyanka Bhargava at Medfemme Kanpur.",
     image: "/images/dr-priyanka-bhargava-pregnancy-mood-swings-management-kanpur.webp",
@@ -977,6 +1000,7 @@ If feelings of sadness or anxiety become persistent or overwhelming, professiona
   {
     title: "PCOS vs PCOD – Understanding the Difference",
     slug: "pcos-vs-pcod-difference",
+    datePublished: "2026-07-16",
     metaTitle: "PCOS vs PCOD: What's the Difference? | Medfemme Kanpur",
     metaDescription: "Confused between PCOS and PCOD? Learn the key differences in causes, symptoms, and treatment with expert insights from Dr. Priyanka Bhargava at Medfemme, Kanpur.",
     image: "/images/pcos-vs-pcod-difference-medfemme-kanpur.webp",
@@ -1149,6 +1173,7 @@ If you experience irregular periods, unexplained weight gain, excessive hair gro
       "women wellness clinic Kanpur"
     ],
     readingTime: "5 min read",
+    datePublished: "2026-08-14",
     keyTakeaways: [
       "The second trimester is generally the safest and most comfortable time to travel during pregnancy.",
       "Air travel is usually safe up to about 36 weeks, but always confirm airline policy and carry a doctor's note after 28 weeks.",
@@ -1241,5 +1266,532 @@ Traveling during pregnancy is often perfectly safe with the right precautions an
       { question: "What precautions should I take before traveling while pregnant?", answer: "Schedule a prenatal check-up before your trip, carry your medical records, research hospitals at your destination, get travel insurance that covers pregnancy care, and avoid regions with active disease outbreaks." },
       { question: "Is a road trip safe during pregnancy?", answer: "Yes, road trips are generally safe with precautions like wearing your seatbelt correctly, taking breaks every 1-2 hours to stretch and move, staying hydrated, and avoiding very long drives, especially alone, in the third trimester." }
     ]
-  }
+  },
+  {
+    title: "What Is Menstrual Hygiene? Myths, Best Practices & When to See a Gynecologist",
+    slug: "what-is-menstrual-hygiene-myths-best-practices-gynecologist",
+    metaTitle: "Menstrual Hygiene: Myths, Best Practices | Medfemme",
+    metaDescription: "Learn what menstrual hygiene really means, common period myths debunked, and when to see a gynecologist, with guidance from Dr. Priyanka Bhargava, Kanpur.",
+    image: "/images/what-is-menstrual-hygiene-myths-best-practices-medfemme-kanpur.png",
+    alt: "Dr. Priyanka Bhargava discussing menstrual hygiene best practices with a patient at Medfemme Clinic Kanpur.",
+    caption: "Dr. Priyanka Bhargava busting menstrual hygiene myths at Medfemme Clinic Kanpur.",
+    category: "Women's Health",
+    tags: [
+      "Menstrual Health",
+      "Period Myths",
+      "Menstrual Hygiene",
+      "Women's Health",
+      "Reproductive Health",
+      "Period Care"
+    ],
+    keywords: [
+      "menstrual hygiene",
+      "period myths",
+      "menstrual health tips",
+      "best gynecologist in Kanpur",
+      "lady gynecologist in kanpur"
+    ],
+    longTailKeywords: [
+      "what is menstrual hygiene",
+      "menstrual hygiene myths and facts",
+      "how often to change sanitary pad",
+      "when to see a gynecologist for periods",
+      "gynecology consultation Kanpur",
+      "women wellness clinic Kanpur",
+      "gynecologist near me for period problems"
+    ],
+    readingTime: "5 min read",
+    datePublished: "2026-08-14",
+    keyTakeaways: [
+      "Change menstrual products regularly according to your flow and product instructions.",
+      "Keep the external genital area clean and avoid harsh or strongly fragranced products.",
+      "Bathing and light exercise are generally safe during periods.",
+      "Track your cycle and notice significant changes in bleeding or pain.",
+      "Very heavy bleeding or severe period pain should be discussed with a gynecologist."
+    ],
+    warningBox: {
+      title: "When to See a Gynecologist",
+      text: "If you experience very heavy bleeding, periods lasting unusually long, severe pain, bleeding between periods or after intercourse, foul-smelling discharge, or dizziness with heavy bleeding, consult Dr. Priyanka Bhargava at Medfemme Clinic promptly."
+    },
+    relatedSlugs: [
+      "irregular-periods-causes-treatment-kanpur",
+      "common-gynecological-problems-prevention-guide",
+      "pcos-symptoms-causes-treatment-guide"
+    ],
+    content: `**Quick Answer:**
+Menstrual hygiene means managing your period safely and comfortably by changing menstrual products regularly, maintaining gentle external hygiene, washing your hands before and after changing products, and paying attention to unusual symptoms.
+
+## What Is Menstrual Hygiene?
+
+Menstrual hygiene includes the everyday practices used to manage your period safely and comfortably. This includes using appropriate menstrual products, changing them regularly, maintaining personal hygiene, and disposing of used products properly.
+
+Good menstrual hygiene also means knowing which period symptoms are normal and which may need medical attention.
+
+## What Are Common Menstrual Hygiene Myths?
+
+Many beliefs about periods are cultural or based on misinformation. Here are some common myths and the facts behind them:
+
+| Myth | Fact |
+|---|---|
+| You should not bathe during your period. | Bathing is safe during menstruation and can help you feel clean and comfortable. Warm water may also help with cramps. |
+| You should avoid exercising during your period. | Most women can exercise safely during their period. Walking, stretching, and yoga may help with cramps and mood. |
+| Tampons affect virginity. | Tampon use does not determine virginity. Virginity cannot be medically determined by the appearance of the hymen. |
+| Periods must come exactly every 28 days. | Menstrual cycles can vary. A cycle does not have to be exactly 28 days for it to be normal. |
+| Certain foods must always be avoided during periods. | There is no universal medical rule requiring women to avoid specific foods during menstruation. |
+| Menstrual blood is dirty or impure. | Menstrual blood is a normal part of the menstrual cycle and is not dirty or impure. |
+| Vaginal douching is necessary during periods. | The vagina is self-cleaning. Gentle cleaning of the external genital area is generally sufficient. |
+| Severe period pain is always normal. | Severe pain should not be ignored, especially when it interferes with daily activities. |
+
+## What Are the Best Menstrual Hygiene Practices?
+
+### How often should I change my sanitary pad?
+
+Change your pad every few hours or sooner if it becomes wet or heavily saturated. Your menstrual flow and the product instructions should guide how frequently you change it.
+
+### How often should I change a tampon?
+
+Follow the product instructions and avoid wearing a tampon longer than recommended. Many tampons are changed every 4-8 hours.
+
+### How should I clean myself during my period?
+
+Gently clean the external genital area with water. Avoid harsh soaps, strongly fragranced products, or vaginal douching if they cause irritation.
+
+### How should I dispose of menstrual products?
+
+Wrap used disposable products before placing them in an appropriate waste bin. Do not flush pads or tampons down the toilet.
+
+### Should I track my menstrual cycle?
+
+Yes. Tracking your period dates, flow, pain, and other symptoms can help you understand your usual cycle and identify significant changes.
+
+## When Should I See a Gynecologist for Period Problems?
+
+You should consider consulting a gynecologist if you experience:
+
+- Very heavy menstrual bleeding
+- Periods that last unusually long
+- Severe pain affecting daily activities
+- Suddenly irregular periods
+- Bleeding between periods
+- Bleeding after sexual intercourse
+- Unusual or foul-smelling discharge
+- Dizziness or significant weakness associated with heavy bleeding
+
+These symptoms do not always indicate a serious condition, but persistent or significant changes should be evaluated.
+
+## When to Seek Professional Guidance
+
+Menstrual hygiene is an important part of women's health, but persistent changes in your periods should not be ignored.
+
+If you have concerns about your periods, menstrual hygiene, abnormal bleeding, or period pain, **Dr. Priyanka Bhargava at Medfemme Women's Clinic, Kanpur** can provide professional guidance based on your individual symptoms.
+
+---
+
+**Medically reviewed by:** Dr. Priyanka Bhargava, Medfemme Women's Clinic, Kanpur
+
+**Medical Disclaimer:** This article is for general educational purposes and does not replace individual medical advice, diagnosis, or treatment. Consult a qualified healthcare professional for persistent or concerning symptoms.`,
+    faqs: [
+      { question: "Is it safe to bathe during periods?", answer: "Yes. Bathing during menstruation is safe and can help maintain personal hygiene and comfort." },
+      { question: "Can I exercise during my period?", answer: "Yes. Most women can continue normal physical activity during menstruation. Choose an intensity that feels comfortable for you." },
+      { question: "Is period pain normal?", answer: "Mild cramps can be common, but severe or worsening pain that interferes with daily life should be evaluated by a gynecologist." },
+      { question: "How often should I change a sanitary pad?", answer: "Change your pad every few hours or sooner when it becomes wet or heavily saturated." },
+      { question: "When should I see a gynecologist for heavy periods?", answer: "Consult a gynecologist if your bleeding is unusually heavy, prolonged, frequently disrupts daily activities, or causes symptoms such as dizziness or significant weakness." }
+    ]
+  },
+//   {
+//     title: "Why Do I Have Sleep Problems During Pregnancy? Causes, Tips & When to See a Doctor",
+//     slug: "sleep-problems-during-pregnancy-causes-and-solutions",
+//     metaTitle: "Why Do I Have Sleep Problems During Pregnancy? | Medfemme",
+//     metaDescription: "Why is sleep difficult during pregnancy? Learn common causes, trimester-wise sleep changes, safe sleep tips, and when to consult a doctor.",
+//     image: "/images/sleep-problems-during-pregnancy-causes-and-solutions-medfemme-kanpur.png",
+//     alt: "Pregnancy sleep guidance at Medfemme Women's Clinic",
+//     caption: "Pregnancy sleep and comfort guidance at Medfemme Women's Clinic, Kanpur.",
+//     category: "Pregnancy Care",
+//     tags: [
+//       "Pregnancy Sleep",
+//       "Pregnancy Insomnia",
+//       "Third Trimester",
+//       "Prenatal Care",
+//       "Pregnancy Care",
+//       "Sleep Health"
+//     ],
+//     keywords: [
+//       "sleep problems during pregnancy",
+//       "pregnancy insomnia",
+//       "sleeping position during pregnancy",
+//       "pregnancy sleep tips",
+//       "pregnancy care",
+//       "gynecologist in Kanpur"
+//     ],
+//     longTailKeywords: [
+//       "why can't I sleep during pregnancy",
+//       "how to sleep better during pregnancy",
+//       "best sleeping position during pregnancy",
+//       "sleep problems in third trimester",
+//       "restless legs during pregnancy",
+//       "pregnancy insomnia causes",
+//       "when to see a doctor for sleep problems during pregnancy"
+//     ],
+//     readingTime: "5 min read",
+//     datePublished: "2026-08-14",
+//     dateModified: "2026-08-14",
+//     keyTakeaways: [
+//       "Sleep problems can occur during any trimester, but the causes often change as pregnancy progresses.",
+//       "Physical discomfort, frequent urination, heartburn, leg cramps, and anxiety can disturb sleep.",
+//       "Side sleeping with supportive pillows can improve comfort as pregnancy progresses.",
+//       "Avoid taking sleep medicines or supplements during pregnancy without medical advice.",
+//       "Persistent or severe sleep problems and concerning symptoms should be discussed with your doctor."
+//     ],
+//     warningBox: {
+//       title: "When Should You Seek Medical Advice?",
+//       text: "Contact your pregnancy care provider if you have persistent or severe insomnia, loud snoring or gasping during sleep, excessive daytime sleepiness, or concerning pregnancy symptoms such as severe headache, vision changes, or sudden swelling."
+//     },
+//     relatedSlugs: [
+//       "managing-pregnancy-mood-swings-tips",
+//       "safe-exercise-during-pregnancy-tips-kanpur",
+//       "pregnancy-warning-signs-when-to-call-doctor"
+//     ],
+//     content: `## Quick Answer
+
+// Sleep problems are common during pregnancy and can be caused by hormonal changes, frequent urination, a growing belly, heartburn, leg cramps, baby movements, and anxiety. Simple changes to your sleep position, evening routine, meals, and daytime activity may improve sleep, but persistent or severe problems should be discussed with your doctor.
+
+// ## Key Takeaways
+
+// - Sleep problems can occur during any trimester, but the causes often change as pregnancy progresses.
+// - Physical discomfort, frequent urination, heartburn, leg cramps, and anxiety can disturb sleep.
+// - Side sleeping with supportive pillows can improve comfort as pregnancy progresses.
+// - Avoid taking sleep medicines or supplements during pregnancy without medical advice.
+// - Loud snoring, gasping during sleep, severe insomnia, or excessive daytime sleepiness should be discussed with your doctor.
+
+// ## Why Is It Hard to Sleep During Pregnancy?
+
+// Pregnancy can affect sleep because of physical, hormonal, and emotional changes. Frequent urination, nausea, heartburn, an increasing belly, leg discomfort, baby's movements, and worries about childbirth can all make it harder to fall asleep or stay asleep.
+
+// The reason for poor sleep can also change from one trimester to another.
+
+// ## What Causes Sleep Problems During Each Trimester?
+
+// | Trimester | Common Reasons Sleep May Be Disrupted |
+// |---|---|
+// | First trimester | Hormonal changes, increased tiredness, nausea, and frequent urination |
+// | Second trimester | Growing belly, vivid dreams, heartburn, and occasional anxiety |
+// | Third trimester | Difficulty getting comfortable, frequent urination, heartburn, leg cramps, baby's movements, and anxiety about labour or parenthood |
+
+// Not every pregnant woman experiences the same symptoms, and sleep quality can vary throughout pregnancy.
+
+// ## What Are the Most Common Sleep Problems During Pregnancy?
+
+// ### Why am I having trouble falling or staying asleep?
+
+// Pregnancy-related discomfort, hormonal changes, frequent urination, anxiety, and physical changes can contribute to insomnia or frequent waking.
+
+// ### What causes restless legs during pregnancy?
+
+// Restless legs syndrome can cause an uncomfortable urge to move the legs, often becoming more noticeable at night. If symptoms are frequent or disruptive, discuss them with your doctor because nutritional deficiencies and other factors may sometimes need evaluation.
+
+// ### Can heartburn affect sleep during pregnancy?
+
+// Yes. Heartburn and acid reflux may become more uncomfortable when lying down. Eating lighter meals, avoiding foods that trigger symptoms, and allowing time between meals and bedtime may help.
+
+// ### Can anxiety affect sleep during pregnancy?
+
+// Yes. Concerns about childbirth, the baby's health, parenting, or other life changes can make it difficult to relax at night. Relaxation exercises, journaling, and discussing persistent anxiety with your doctor or a qualified professional may help.
+
+// ## What Is the Best Sleeping Position During Pregnancy?
+
+// As pregnancy progresses, side sleeping is generally recommended, particularly later in pregnancy. Either side can be comfortable, and using a pillow between the knees or supporting the abdomen can reduce pressure and improve comfort.
+
+// If you are unsure about the safest sleeping position for your stage of pregnancy, ask your pregnancy care provider for individual guidance.
+
+// ## How Can I Sleep Better During Pregnancy?
+
+// A few practical habits may help:
+
+// - Keep a consistent bedtime and wake-up routine.
+// - Use pillows to support your abdomen, back, or knees.
+// - Avoid heavy meals close to bedtime if you experience heartburn.
+// - Stay hydrated during the day while avoiding excessive fluids close to bedtime if frequent urination is disturbing your sleep.
+// - Try gentle stretching or relaxation breathing before bed.
+// - Keep your bedroom comfortable, quiet, and dark.
+// - Stay physically active during the day if your pregnancy care provider says exercise is appropriate for you.
+// - Limit stimulating activities and screen use close to bedtime.
+
+// ## Is It Safe to Take Sleep Medicines During Pregnancy?
+
+// Do not start sleeping pills, supplements, or herbal sleep remedies during pregnancy without consulting your doctor. Some medicines and supplements may not be appropriate during pregnancy, so your doctor can help you choose a safer approach based on your symptoms and medical history.
+
+// ## Can Poor Sleep During Pregnancy Affect the Baby?
+
+// Occasional poor sleep is common during pregnancy. However, persistent or severe sleep problems, particularly when associated with conditions such as sleep apnea, should be discussed with your doctor because untreated sleep disorders can affect the mother's health and pregnancy.
+
+// ## When Should I See a Doctor About Sleep Problems During Pregnancy?
+
+// Talk to your doctor if sleep problems are persistent, severe, or affecting your ability to function during the day. You should also discuss symptoms such as:
+
+// - Loud, persistent snoring
+// - Gasping or pauses in breathing during sleep
+// - Excessive daytime sleepiness
+// - Severe or persistent insomnia
+// - Restless legs that significantly disrupt sleep
+// - Other concerning symptoms during pregnancy, such as severe headache, vision changes, sudden swelling, or significant shortness of breath
+
+// These symptoms may require medical evaluation rather than being treated as ordinary pregnancy discomforts.
+
+// ## Frequently Asked Questions About Sleep During Pregnancy
+
+// ### Why can't I sleep during pregnancy?
+
+// Sleep can become difficult because of hormonal changes, frequent urination, physical discomfort, heartburn, leg cramps, baby's movements, and anxiety. The causes may change as pregnancy progresses.
+
+// ### What is the best sleeping position during pregnancy?
+
+// Side sleeping is generally recommended as pregnancy progresses. Either side can be comfortable, and pillows can be used to support the abdomen, back, and knees.
+
+// ### Can I take a sleeping pill during pregnancy?
+
+// Do not take sleeping medicines, supplements, or herbal remedies during pregnancy without medical advice. Ask your doctor about safe options for your specific situation.
+
+// ### Why do I wake up frequently to urinate during pregnancy?
+
+// Hormonal changes and pressure from the growing uterus on the bladder can increase the need to urinate during pregnancy, which may interrupt sleep.
+
+// ### Can heartburn cause sleep problems during pregnancy?
+
+// Yes. Heartburn can become worse when lying down and may make it difficult to fall asleep or stay asleep. Meal timing and other lifestyle adjustments may help.
+
+// ### When should I see a doctor for pregnancy-related sleep problems?
+
+// Consult your doctor if sleep problems are severe or persistent, affect your daytime functioning, or occur with symptoms such as loud snoring, gasping during sleep, excessive daytime sleepiness, severe headache, vision changes, or sudden swelling.
+
+// ## What Should You Remember About Sleep During Pregnancy?
+
+// Sleep disruption is common during pregnancy, but persistent or severe sleep problems should not simply be ignored. Understanding the cause, improving sleep habits, using comfortable sleeping positions, and discussing concerning symptoms with your doctor can help support better sleep and overall pregnancy well-being.
+
+// If you are experiencing persistent sleep problems during pregnancy, Dr. Priyanka Bhargava at Medfemme Women's Clinic, Kanpur can provide pregnancy and gynecological care based on your individual symptoms and medical history.
+
+// ## Medical Review
+
+// Medically reviewed by Dr. Priyanka Bhargava, Medfemme Women's Clinic, Kanpur.
+
+// ## Medical Disclaimer
+
+// This article is intended for general educational purposes and does not replace an individual medical consultation, diagnosis, or treatment plan. Consult a qualified healthcare professional for persistent, severe, or concerning symptoms during pregnancy.`,
+//     faqs: [
+//       { question: "Why can't I sleep during pregnancy?", answer: "Sleep can become difficult because of hormonal changes, frequent urination, physical discomfort, heartburn, leg cramps, baby's movements, and anxiety. The causes may change as pregnancy progresses." },
+//       { question: "What is the best sleeping position during pregnancy?", answer: "Side sleeping is generally recommended as pregnancy progresses. Either side can be comfortable, and pillows can be used to support the abdomen, back, and knees." },
+//       { question: "Can I take a sleeping pill during pregnancy?", answer: "Do not take sleeping medicines, supplements, or herbal remedies during pregnancy without medical advice. Ask your doctor about safe options for your specific situation." },
+//       { question: "Can heartburn cause sleep problems during pregnancy?", answer: "Yes. Heartburn can become worse when lying down and may make it difficult to fall asleep or stay asleep. Meal timing and other lifestyle adjustments may help." },
+//       { question: "When should I see a doctor for pregnancy-related sleep problems?", answer: "Consult your doctor if sleep problems are severe or persistent, affect your daytime functioning, or occur with symptoms such as loud snoring, gasping during sleep, excessive daytime sleepiness, severe headache, vision changes, or sudden swelling." }
+//     ]
+//   },
+//   {
+//     title: "What Is the IVF Process? Step-by-Step Guide, Timeline & What to Expect",
+//     slug: "understanding-ivf-process-step-by-step",
+//     metaTitle: "What Is the IVF Process? Steps, Timeline & What to Expect | Medfemme",
+//     metaDescription: "What is the IVF process? Learn each IVF step, treatment timeline, embryo transfer, success factors, and when IVF may be recommended.",
+//     image: "/images/understanding-ivf-process-step-by-step-medfemme-kanpur.png",
+//     alt: "IVF process and fertility treatment guidance at Medfemme Women's Clinic",
+//     caption: "IVF process guidance and fertility consultation at Medfemme Women's Clinic, Kanpur.",
+//     category: "Fertility",
+//     tags: [
+//       "IVF",
+//       "Fertility Treatment",
+//       "Infertility",
+//       "Assisted Reproduction",
+//       "Embryo Transfer",
+//       "Fertility"
+//     ],
+//     keywords: [
+//       "IVF process",
+//       "IVF treatment",
+//       "IVF steps",
+//       "IVF procedure",
+//       "infertility treatment",
+//       "fertility treatment",
+//       "gynecologist in Kanpur"
+//     ],
+//     longTailKeywords: [
+//       "what is the IVF process",
+//       "IVF process step by step",
+//       "how long does IVF take",
+//       "what happens during IVF",
+//       "IVF treatment procedure",
+//       "what happens after embryo transfer",
+//       "when should you consider IVF",
+//       "IVF consultation in Kanpur"
+//     ],
+//     readingTime: "6 min read",
+//     datePublished: "2026-08-14",
+//     dateModified: "2026-08-14",
+//     keyTakeaways: [
+//       "IVF involves several stages, from fertility evaluation and ovarian stimulation to embryo transfer and pregnancy testing.",
+//       "The exact IVF timeline varies depending on the treatment protocol and individual response.",
+//       "IVF success depends on factors such as age, ovarian reserve, infertility diagnosis, sperm factors, and embryo quality.",
+//       "Some IVF procedures can cause temporary discomfort, but pain-management options are available.",
+//       "A fertility specialist can help determine whether IVF is appropriate based on individual medical circumstances."
+//     ],
+//     warningBox: {
+//       title: "When Should You Contact Your Fertility Team?",
+//       text: "Contact your fertility care team promptly if you experience severe abdominal pain, significant abdominal swelling, shortness of breath, heavy bleeding, or other concerning symptoms during IVF treatment."
+//     },
+//     relatedSlugs: [
+//       "can-i-get-pregnant-with-pcos-fertility-guide",
+//       "fertility-after-35-tips-guidelines",
+//       "thyroid-disorders-female-fertility-guide"
+//     ],
+//     content: `## Quick Answer
+
+// IVF, or in vitro fertilization, is a fertility treatment in which an egg and sperm are combined in a laboratory to create an embryo, which may then be transferred into the uterus. The process usually involves fertility evaluation, ovarian stimulation, egg retrieval, fertilization, embryo development, embryo transfer, and a pregnancy test.
+
+// ## Key Takeaways
+
+// - IVF involves several stages and the exact treatment plan varies between individuals.
+// - Ovarian stimulation is used to encourage the development of multiple eggs.
+// - Eggs are collected and fertilized with sperm in a laboratory.
+// - An embryo may be transferred into the uterus after several days of development.
+// - IVF success depends on factors such as age, ovarian reserve, infertility diagnosis, and embryo quality.
+
+// ## What Is IVF?
+
+// IVF stands for in vitro fertilization. It is an assisted reproductive treatment in which eggs are collected from the ovaries and fertilized with sperm in a laboratory. An embryo that develops after fertilization may then be transferred into the uterus.
+
+// IVF may be considered for conditions such as blocked fallopian tubes, some forms of male-factor infertility, ovulation problems, endometriosis, unexplained infertility, or when other fertility treatments have not been successful.
+
+// ## What Are the Steps of the IVF Process?
+
+// | IVF Stage | What Happens? | Typical Timing |
+// |---|---|---|
+// | 1. Fertility evaluation | Medical history, blood tests, ultrasound, semen analysis, and other tests where needed | Before the cycle |
+// | 2. Ovarian stimulation | Fertility medicines encourage the ovaries to develop multiple follicles | About 8–14 days, depending on the protocol |
+// | 3. Trigger injection | Medication helps final egg maturation before retrieval | Timed by the fertility team |
+// | 4. Egg retrieval | Eggs are collected from the ovaries using an ultrasound-guided procedure | Usually about 34–36 hours after trigger |
+// | 5. Fertilization | Eggs are combined with sperm or fertilized using ICSI when appropriate | Same day as retrieval |
+// | 6. Embryo development | Fertilized eggs are monitored as they develop into embryos | Usually several days |
+// | 7. Embryo transfer | A selected embryo is placed into the uterus using a thin catheter | Timing varies |
+// | 8. Pregnancy test | A blood test is performed after the appropriate waiting period | Usually around 10–14 days after transfer |
+
+// The exact timing can vary depending on the treatment protocol and individual response.
+
+// ## What Happens During the Initial IVF Evaluation?
+
+// Before starting IVF, the fertility team evaluates both partners where applicable. This may include hormone testing, ultrasound, assessment of ovarian reserve, evaluation of the uterus, and semen analysis.
+
+// Additional testing may be recommended depending on medical history and the suspected cause of infertility.
+
+// ## How Does Ovarian Stimulation Work?
+
+// During ovarian stimulation, fertility medicines are used to encourage the ovaries to develop multiple follicles. Regular ultrasounds and, when appropriate, blood tests help the fertility team monitor follicle development and adjust treatment.
+
+// The goal is to obtain mature eggs while monitoring the response to medication.
+
+// ## What Happens During Egg Retrieval?
+
+// Egg retrieval is performed using an ultrasound-guided needle to collect mature eggs from the ovarian follicles. Medication or sedation may be used to keep the procedure comfortable.
+
+// Mild cramping or bloating can occur afterward. Your fertility team will provide specific instructions for recovery and warning signs to watch for.
+
+// ## How Are the Eggs Fertilized During IVF?
+
+// After egg retrieval, the eggs are fertilized with sperm in a laboratory. Fertilization may be attempted using conventional IVF, where eggs and sperm are placed together, or ICSI, where a single sperm is injected directly into an egg.
+
+// The method used depends on factors such as sperm quality, previous treatment history, and the fertility team's assessment.
+
+// ## What Happens to the Embryos After Fertilization?
+
+// After fertilization, embryos are monitored in the laboratory as they develop. Embryologists assess their development and quality to help determine which embryo or embryos may be suitable for transfer or freezing.
+
+// In selected cases, additional embryo testing may be considered based on the couple's medical history and fertility treatment plan.
+
+// ## What Happens During Embryo Transfer?
+
+// During embryo transfer, a selected embryo is placed inside the uterus using a thin catheter. The procedure is generally brief and does not usually require anesthesia.
+
+// The number of embryos recommended for transfer depends on factors such as age, embryo quality, medical history, and clinical guidance.
+
+// ## How Long Does the IVF Process Take?
+
+// The timeline varies depending on the treatment protocol. A treatment cycle may take several weeks from the beginning of ovarian stimulation through embryo transfer and pregnancy testing.
+
+// Some patients may require additional time for testing, preparation, embryo freezing, or a later frozen embryo transfer.
+
+// ## What Factors Affect IVF Success?
+
+// IVF outcomes can vary significantly between individuals. Factors that may influence the chances of success include:
+
+// - Age
+// - Ovarian reserve
+// - Cause and duration of infertility
+// - Sperm quality
+// - Embryo development and quality
+// - Uterine and reproductive health
+// - Previous fertility treatment history
+
+// A fertility specialist can provide a more individualized assessment after reviewing the couple's medical history and test results.
+
+// ## Is IVF Painful?
+
+// Some parts of IVF may cause temporary discomfort, including injections and egg retrieval. Egg retrieval is generally performed with medication or sedation for comfort. Embryo transfer is usually a brief procedure and is generally well tolerated.
+
+// Individual experiences vary, so discuss pain management and what to expect with your fertility team before treatment.
+
+// ## When Should You Consider IVF?
+
+// IVF may be considered when pregnancy has not occurred despite appropriate attempts or other fertility treatments, or when a condition makes IVF a suitable treatment option.
+
+// The appropriate timing depends on factors such as age, duration of infertility, ovarian reserve, reproductive history, and the cause of infertility. A fertility consultation can help determine whether IVF or another treatment is appropriate.
+
+// ## What Symptoms During IVF Need Medical Attention?
+
+// Contact your fertility care team promptly if you experience severe abdominal pain, significant abdominal swelling, shortness of breath, heavy bleeding, or other symptoms that concern you during treatment.
+
+// Some symptoms may indicate complications such as ovarian hyperstimulation syndrome, which requires medical evaluation.
+
+// ## Frequently Asked Questions About IVF
+
+// ### How long does a full IVF cycle take?
+
+// The timeline varies, but an IVF cycle may take several weeks from ovarian stimulation through embryo transfer and pregnancy testing. The exact duration depends on the treatment protocol and whether a fresh or frozen embryo transfer is planned.
+
+// ### Is IVF painful?
+
+// Some parts of IVF can cause temporary discomfort. Egg retrieval is generally performed with medication or sedation, while embryo transfer is usually a brief and well-tolerated procedure.
+
+// ### What is the success rate of IVF?
+
+// IVF success varies based on factors such as age, ovarian reserve, cause of infertility, sperm factors, and embryo quality. A fertility specialist can provide a more individualized assessment after evaluation.
+
+// ### How many embryos are transferred during IVF?
+
+// The number of embryos transferred depends on factors including age, embryo quality, medical history, and clinical recommendations. In many situations, transferring a single suitable embryo may be considered to reduce the risk associated with multiple pregnancy.
+
+// ### Can lifestyle changes improve IVF outcomes?
+
+// Healthy habits such as avoiding smoking, maintaining appropriate physical activity, following nutritional guidance, and managing overall health can support fertility treatment. They cannot guarantee IVF success.
+
+// ### What happens after embryo transfer?
+
+// After embryo transfer, the fertility team provides instructions about medications and follow-up. A pregnancy test is usually performed after an appropriate waiting period rather than immediately after the transfer.
+
+// ## What Should You Remember About IVF?
+
+// IVF is a multi-stage fertility treatment that begins with evaluation and planning and may progress through ovarian stimulation, egg retrieval, fertilization, embryo development, embryo transfer, and pregnancy testing. The exact process and timeline are individualized for each patient or couple.
+
+// If you are considering IVF or have questions about your fertility options, Dr. Priyanka Bhargava at Medfemme Women's Clinic, Kanpur can help you understand the available treatment options based on your medical history and fertility evaluation.
+
+// ## Medical Review
+
+// Medically reviewed by Dr. Priyanka Bhargava, Medfemme Women's Clinic, Kanpur.
+
+// ## Medical Disclaimer
+
+// This article is intended for general educational purposes and does not replace an individual medical consultation, diagnosis, or treatment plan. Fertility treatment should be planned with a qualified fertility specialist based on individual medical circumstances.`,
+//     faqs: [
+//       { question: "How long does a full IVF cycle take?", answer: "The timeline varies, but an IVF cycle may take several weeks from ovarian stimulation through embryo transfer and pregnancy testing. The exact duration depends on the treatment protocol and whether a fresh or frozen embryo transfer is planned." },
+//       { question: "Is IVF painful?", answer: "Some parts of IVF can cause temporary discomfort. Egg retrieval is generally performed with medication or sedation, while embryo transfer is usually a brief and well-tolerated procedure." },
+//       { question: "What is the success rate of IVF?", answer: "IVF success varies based on factors such as age, ovarian reserve, cause of infertility, sperm factors, and embryo quality. A fertility specialist can provide a more individualized assessment after evaluation." },
+//       { question: "How many embryos are transferred during IVF?", answer: "The number of embryos transferred depends on factors including age, embryo quality, medical history, and clinical recommendations." },
+//       { question: "Can lifestyle changes improve IVF outcomes?", answer: "Healthy habits such as avoiding smoking, maintaining appropriate physical activity, following nutritional guidance, and managing overall health can support fertility treatment, but they cannot guarantee IVF success." },
+//       { question: "What happens after embryo transfer?", answer: "After embryo transfer, the fertility team provides instructions about medications and follow-up. A pregnancy test is usually performed after an appropriate waiting period." }
+//     ]
+//   }
 ];
