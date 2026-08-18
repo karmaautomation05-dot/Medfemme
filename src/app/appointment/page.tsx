@@ -5,6 +5,9 @@ import { Clock, Phone, MapPin } from 'lucide-react'
 export const metadata = {
   title: "Book an Appointment | Dr. Priyanka Bhargava Kanpur | Medfemme",
   description: "Schedule your consultation with Dr. Priyanka Bhargava at Medfemme. Easy online booking, WhatsApp integration, and flexible timings for all your obstetric and gynecological needs.",
+  alternates: {
+    canonical: '/appointment',
+  },
   openGraph: {
     title: "Book an Appointment | Dr. Priyanka Bhargava Kanpur | Medfemme",
     description: "Schedule your consultation with Dr. Priyanka Bhargava at Medfemme. Easy online booking, WhatsApp integration, and flexible timings.",

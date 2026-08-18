@@ -17,3 +17,5 @@ User-agent: Google-Extended
 Allow: /
 
 Sitemap: https://medfemme.in/sitemap.xml
+
+# LLMs: https://medfemme.in/llms.txt

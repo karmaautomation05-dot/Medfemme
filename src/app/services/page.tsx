@@ -6,6 +6,9 @@ import { CheckCircle2 } from 'lucide-react'
 export const metadata = {
   title: "Comprehensive Women's Healthcare Services in Kanpur | Medfemme — Dr. Priyanka Bhargava",
   description: "Explore the range of services at Medfemme, including maternity care, high-risk pregnancy management, laparoscopic surgery, and general gynecology by Dr. Priyanka Bhargava.",
+  alternates: {
+    canonical: '/services',
+  },
   openGraph: {
     title: "Comprehensive Women's Healthcare Services in Kanpur | Medfemme",
     description: "Explore the range of services at Medfemme, including maternity care, high-risk pregnancy management, and laparoscopic surgery.",

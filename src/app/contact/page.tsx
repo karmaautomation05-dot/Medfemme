@@ -5,6 +5,9 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react'
 export const metadata = {
   title: "Contact Us | Medfemme Women's Clinic Kanpur — Dr. Priyanka Bhargava",
   description: "Get in touch with Medfemme. Find our address at 7/198 - A, Anand Bazar, Khalasi Line, Swaroop Nagar, Kanpur, call us for appointments, or chat with us on WhatsApp for expert gynecological care.",
+  alternates: {
+    canonical: '/contact',
+  },
   openGraph: {
     title: "Contact Us | Medfemme Women's Clinic Kanpur",
     description: "Get in touch with Medfemme. Find our address in Swaroop Nagar, Kanpur.",

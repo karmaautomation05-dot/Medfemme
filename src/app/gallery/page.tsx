@@ -3,6 +3,9 @@ import Image from 'next/image'
 export const metadata = {
   title: "Gallery | Medfemme Women's Clinic Kanpur — Dr. Priyanka Bhargava",
   description: "Explore the gallery of Medfemme Women's Clinic. See life at our clinic, latest news, and our advanced facilities.",
+  alternates: {
+    canonical: '/gallery',
+  },
   openGraph: {
     title: "Gallery | Medfemme Women's Clinic Kanpur",
     description: "Explore the gallery of Medfemme Women's Clinic. See life at our clinic, latest news, and our advanced facilities.",

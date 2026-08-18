@@ -5,6 +5,9 @@ import { blogPosts } from '@/data/blogPosts'
 export const metadata = {
   title: "Women's Health Blog | Medfemme Women's Clinic Kanpur",
   description: "Stay informed with the latest articles on PCOS, pregnancy care, fertility, and women's health from Dr. Priyanka Bhargava at Medfemme Kanpur.",
+  alternates: {
+    canonical: '/blog',
+  },
   openGraph: {
     title: "Women's Health Blog | Medfemme Women's Clinic Kanpur",
     description: "Stay informed with the latest articles on PCOS, pregnancy care, fertility, and women's health from Dr. Priyanka Bhargava at Medfemme Kanpur.",

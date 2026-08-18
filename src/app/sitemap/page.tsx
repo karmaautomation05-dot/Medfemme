@@ -4,6 +4,9 @@ import { blogPosts } from '@/data/blogPosts'
 export const metadata = {
   title: 'Sitemap | Medfemme — Dr. Priyanka Bhargava Kanpur',
   description: "Complete sitemap of Medfemme Women's Clinic website. Find all pages, blog posts, and services offered by Dr. Priyanka Bhargava in Kanpur.",
+  alternates: {
+    canonical: '/sitemap',
+  },
   openGraph: {
     title: 'Sitemap | Medfemme — Dr. Priyanka Bhargava Kanpur',
     description: "Complete sitemap of Medfemme Women's Clinic website.",

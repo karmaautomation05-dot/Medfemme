@@ -3,6 +3,9 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Terms & Conditions | Medfemme — Dr. Priyanka Bhargava',
   description: "Read the terms and conditions of Medfemme Women's Clinic. Understand the guidelines for using our website and services.",
+  alternates: {
+    canonical: '/terms',
+  },
   openGraph: {
     title: 'Terms & Conditions | Medfemme — Dr. Priyanka Bhargava',
     description: "Read the terms and conditions of Medfemme Women's Clinic.",

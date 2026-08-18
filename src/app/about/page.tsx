@@ -6,6 +6,9 @@ import { GraduationCap, Building2, HeartHandshake } from 'lucide-react'
 export const metadata = {
   title: 'About Dr. Priyanka Bhargava | Best Gynecologist in Kanpur | Medfemme',
   description: "Learn more about Dr. Priyanka Bhargava, her qualifications, 20+ years of experience, and her commitment to providing the best women's healthcare in Kanpur at Medfemme.",
+  alternates: {
+    canonical: '/about',
+  },
   openGraph: {
     title: 'About Dr. Priyanka Bhargava | Best Gynecologist in Kanpur | Medfemme',
     description: "Learn more about Dr. Priyanka Bhargava, her qualifications, 20+ years of experience, and her commitment to providing the best women's healthcare in Kanpur at Medfemme.",

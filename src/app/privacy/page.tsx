@@ -3,6 +3,9 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Privacy Policy | Medfemme — Dr. Priyanka Bhargava',
   description: "Read the privacy policy of Medfemme Women's Clinic. Learn how we collect, use, and protect your personal information.",
+  alternates: {
+    canonical: '/privacy',
+  },
   openGraph: {
     title: 'Privacy Policy | Medfemme — Dr. Priyanka Bhargava',
     description: "Read the privacy policy of Medfemme Women's Clinic.",
