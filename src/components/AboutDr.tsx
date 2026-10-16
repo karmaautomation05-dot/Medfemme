@@ -26,7 +26,7 @@ export default function AboutDr() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl relative aspect-[3/4]">
                <Image 
-                 src="/images/Main_Images/Dr-Priyanka-Bhargava-at-her-clinic(1).webp" 
+                 src="/images/Main_Images/Dr-Priyanka-Bhargava-portrait.webp" 
                  alt="Dr. Priyanka Bhargava - Best Gynecologist & Obstetrician in Kanpur" 
                  fill 
                  className="object-cover"

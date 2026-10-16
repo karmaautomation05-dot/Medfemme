@@ -8,6 +8,7 @@ export default function Hero() {
   const sliderImages = [
     '/images/Main_Images/Dr-Priyanka-Bhargava-Best-Gynecologist(1).webp',
     '/images/Main_Images/Dr-Priyanka-Bhargava-Best-Gynecologist(2).webp',
+    '/images/Main_Images/Dr-Priyanka-Bhargava-portrait.webp',
     '/images/Main_Images/Dr-Priyanka-Bhargava-at-her-clinic(1).webp',
     '/images/Main_Images/Dr-Priyanka-Bhargava-at-her-clinic(2).webp',
     '/images/Main_Images/Dr-Priyanka-Bhargava-at-her-clinic(3).webp',
